@@ -1,35 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@MrBurgerCZ 
-MrBurgerCZ
-/
-mrburgercz.github.io
-Public
-Cannot fork because you own this repository and are not a member of any organizations.
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-Beta Try the new code view
-mrburgercz.github.io/One-Page-Portfolio-Template-master/index.html
-@MrBurgerCZ
-MrBurgerCZ Add files via upload
-Latest commit 771f3fc 2 minutes ago
- History
- 1 contributor
-346 lines (331 sloc)  14.5 KB
- 
 
 <!DOCTYPE html>
 <html lang="en">
