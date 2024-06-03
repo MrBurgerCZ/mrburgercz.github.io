@@ -1,20 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RGB Control</title>
+    <title>Dropdown Menu</title>
+    <style>
+        /* Styling for dropdown menu */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+    </style>
 </head>
 <body>
-    <h1>RGB Control</h1>
-    <form action="/rgb/status" method="GET">
-        <label for="colorSelect">Vyberte barvu nebo gradient:</label>
-        <select id="colorSelect" name="color">
-            <option value="blue-pink-gradient">Modro-růžový gradient</option>
-            <!-- Přidejte další možnosti podle vašich potřeb -->
-        </select>
-        <br>
-        <button type="submit">Odeslat</button>
-    </form>
+
+<div class="dropdown">
+    <button class="dropbtn">Funkce</button>
+    <div class="dropdown-content">
+        <a href="/status?function=Funkce1">Funkce 1</a>
+        <a href="/status?function=Funkce2">Funkce 2</a>
+        <a href="/status?function=Funkce3">Funkce 3</a>
+        <!-- Add more functions as needed -->
+    </div>
+</div>
+
 </body>
 </html>
