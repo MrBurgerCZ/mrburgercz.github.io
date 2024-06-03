@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Control</title>
+    <style>
+        /* Styling */
+        /* Přidejte libovolné vlastní styly zde */
+    </style>
+</head>
+<body>
+    <h1>RGB Control</h1>
+    <form id="colorForm" action="/rgb/status" method="GET">
+        <label for="colorSelect">Vyberte barvu nebo gradient:</label>
+        <select id="colorSelect" name="color">
+            <option value="blue-pink-gradient">Modro-růžový gradient</option>
+            <!-- Přidejte další možnosti podle vašich potřeb -->
+        </select>
+        <br>
+        <button type="submit">Odeslat</button>
+    </form>
+</body>
+</html>
