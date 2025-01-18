@@ -10,6 +10,7 @@ body {
   align-content: center;
   min-height: 100%;
   margin: 0;
+  transition: background-color 0.5s ease;
 }
 
 footer {

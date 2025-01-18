@@ -13,6 +13,9 @@
   --color-gray: light-dark(#9ca0b0, #6c7086);
   --background: light-dark(#dce0e8, #11111b);
   --click-spark-color: light-dark(#1e1e2e, #45475a);
+
+  --mantle: light-dark(#e6e9ef, #181825);
+  --base: light-dark(#eff1f5, #1e1e2e);
 }
 
 html {
@@ -42,5 +45,6 @@ a {
 @layer components {
   body {
     background-color: var(--background);
+    transition: background-color 3s ease;
   }
 }
