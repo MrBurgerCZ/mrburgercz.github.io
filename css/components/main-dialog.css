@@ -73,6 +73,12 @@
   }
 }
 
+.option-red {
+  &:hover {
+    background-color: var(--red) !important;
+  }
+}
+
 .option-green {
   &:hover {
     border-color: var(--green);
@@ -89,12 +95,11 @@
 
 @media (max-width: 480px) {
   .main-dialog {
-    border: none;
+    margin: 1em;
   }
-
   .main-dialog__options {
     flex-direction: column;
-
-    width: 100%;
+    margin: 1em;
+    margin-bottom: 0;
   }
 }
