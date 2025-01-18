@@ -12,35 +12,45 @@
 
 <body>
   <click-spark></click-spark>
-  <div class="main-dialog">
-    <h1>MrBurgerCZ</h1>
-    <p class="small">(to jsem já)</p>
-    <ul class="main-dialog__options">
-      <li>
-        <a href="http://map.mrburger.cz">Dynmapa</a>
-      </li>
-      <li>
-        <a href="javascript:void(0);"
-        onclick="copyToClipboard('mc.mrburger.cz')">Minecraft Server - mc.mrburger.cz</a>
-      </li>
-      <li>
-        <a href="javascript:void(0);"
-        onclick="copyToClipboard('play.mrburger.cz')">Minecraft Server - play.mrburger.cz</a>
-      </li>
+  <main class="main-wrapper">
+    <div class="main-dialog">
+      <h1>MrBurgerCZ</h1>
+      <p class="small">(to jsem já)</p>
+      <ul class="main-dialog__options">
+        <li class="option-blue">
+          <a href="http://map.mrburger.cz">Dynmapa</a>
+        </li>
+        <li class="option-green">
+          <a href="javascript:void(0);" onclick="copyToClipboard('mc.mrburger.cz')">Minecraft Server - mc.mrburger.cz</a>
+        </li>
+        <li>
+          <a href="javascript:void(0);" onclick="copyToClipboard('play.mrburger.cz')">Minecraft Server - play.mrburger.cz</a>
+        </li>
 
-    </ul>
-    <h2 class="main-dialog__text">Pravděpodobně se nebudete moct připojit k serveru, nemám správně nastavené DNS záznamy a router.</h2>
-    <p>Modpack <a class="link" href="https://github.com/MrBurgerCZ/waxedlightlyweathercutcopperstairs-modpack">zde</a>.</p>
-  </div>
-  <div class="main-dialog">
-    <h2>Školní projekty</h2>
-    <ul class="main-dialog__options">
-      <li>
-        <a href="https://mrburger.cz/web-micro-gamebook/" class="list-group-item list-group-item-action">Gamebook</a>
-      </li>
-    </ul>
+      </ul>
+      <h2 class="main-dialog__text">Pravděpodobně se nebudete moct připojit k serveru, nemám správně nastavené DNS
+        záznamy a router.</h2>
+      <p>Modpack <a class="link"
+          href="https://github.com/MrBurgerCZ/waxedlightlyweathercutcopperstairs-modpack">zde</a>.</p>
+    </div>
+    <div class="main-dialog">
+      <h2>Školní projekty</h2>
+      <ul class="main-dialog__options">
+        <li>
+          <a href="https://mrburger.cz/web-micro-gamebook/" class="list-group-item list-group-item-action">Gamebook</a>
+        </li>
+      </ul>
 
-  </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-text">
+      <p>made by <a href="https://github.com/MrBurgerCZ">MrBurgerCZ</a> • using <a
+          href="https://github.com/catppuccin">Catppuccin</a> colors • <a
+          href="https://github.com/MrBurgerCZ/mrburgercz.github.io">source code</a></p>
+    </div>
+  </footer>
+
   <script>
     function copyToClipboard(text) {
       const el = document.createElement('textarea');
@@ -52,12 +62,6 @@
       alert('Zkopírováno do schránky.');
     }
   </script>
-  <footer>
-    <div class="footer-text">
-      <p>made by <a href="https://github.com/MrBurgerCZ">MrBurgerCZ</a> • using <a
-          href="https://github.com/catppuccin">Catppuccin</a> colors • <a href="https://github.com/MrBurgerCZ/mrburgercz.github.io">source code</a></p>
-    </div>
-  </footer>
 </body>
 
 </html>
