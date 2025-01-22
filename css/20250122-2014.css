@@ -43,6 +43,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: .7s ease;
 }
 
 a {
