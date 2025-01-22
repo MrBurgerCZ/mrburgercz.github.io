@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2em;
+  padding: 1em;
   background-color: var(--mantle);
   border: 2px solid;
   border-color: var(--background);
@@ -41,7 +41,7 @@
 
   >li {
     border: 2px solid;
-    border-color: var(--color-primary);
+    border-color: var(--base);
     border-radius: 12px;
     margin: 0.5em;
     background-color: var(--base);
@@ -75,6 +75,7 @@
 
 .option-red {
   &:hover {
+    border-color: var(--red);
     background-color: var(--red) !important;
   }
 }
