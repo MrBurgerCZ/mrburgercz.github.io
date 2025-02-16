@@ -30,12 +30,18 @@ html {
 }
 
 .small {
-  font-size: 0.8rem;
+  font-size: 0.8em;
+  margin: 0.5em;
 }
 
 h1 {
   font-size: 3rem;
   font-weight: 800;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.no-bottom-margin {
   margin-bottom: 0;
 }
 
