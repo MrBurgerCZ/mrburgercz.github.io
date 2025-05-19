@@ -1,0 +1,1 @@
+git submodule add -b gh-pages https://github.com/MrBurgerCZ/mrburger.cz.git test
